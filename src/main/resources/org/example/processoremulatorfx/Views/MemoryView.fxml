@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="150.0" prefWidth="230.0" style="-fx-border-color: gray;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.processoremulatorfx.Controllers.MemoryViewController">
+   <children>
+      <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="20.0" prefWidth="210.0" text="Состояние памяти">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ScrollPane layoutX="5" layoutY="34.0" prefHeight="106.0" prefWidth="225.0">
+         <content>
+            <VBox fx:id="Mem" maxHeight="100.0" maxWidth="220.0" />
+         </content></ScrollPane>
+   </children>
+</Pane>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="150.0" prefWidth="230.0" style="-fx-border-color: gray;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.processoremulatorfx.Controllers.ProgramStatusViewController">
+   <children>
+      <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="20.0" prefWidth="210.0" text="Состояние программы">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="15.0" layoutY="35.0" prefHeight="20.0" prefWidth="76.0" text="Процесс: ">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font></Label>
+      <Label layoutX="15.0" layoutY="55.0" prefHeight="20.0" prefWidth="76.0" text="Шаг:">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font></Label>
+      <Label layoutX="15.0" layoutY="75.0" prefHeight="20.0" prefWidth="76.0" text="Команд: ">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font></Label>
+      <Label layoutX="15.0" layoutY="95.0" prefHeight="20.0" prefWidth="76.0" text="Память: ">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font></Label>
+      <Label layoutX="15.0" layoutY="115.0" prefHeight="20.0" prefWidth="76.0" text="Ошибки:">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font></Label>
+
+      <Label fx:id="proc" layoutX="86.0" layoutY="35.0" prefHeight="20.0" prefWidth="142.0">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font></Label>
+      <Label fx:id="step" layoutX="86.0" layoutY="55.0" prefHeight="20.0" prefWidth="76.0">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font></Label>
+      <Label fx:id="commands" layoutX="86.0" layoutY="75.0" prefHeight="20.0" prefWidth="76.0">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font></Label>
+      <Label fx:id="memory" layoutX="86.0" layoutY="95.0" prefHeight="20.0" prefWidth="76.0">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font></Label>
+      <Label fx:id="error" layoutX="86.0" layoutY="115.0" prefHeight="20.0" prefWidth="76.0">
+         <font>
+            <Font name="Monospaced Regular" size="14.0" />
+         </font></Label>
+
+   </children>
+</Pane>

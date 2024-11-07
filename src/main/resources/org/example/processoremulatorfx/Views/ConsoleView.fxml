@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<Pane prefHeight="150.0" prefWidth="230.0" style="-fx-border-color: gray;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.processoremulatorfx.Controllers.ConsoleViewController">
+   <children>
+      <Label alignment="CENTER" layoutX="10.0" layoutY="10.0" prefHeight="20.0" prefWidth="210.0" text="Консоль">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <ScrollPane layoutX="10.0" layoutY="35.0" prefHeight="105.0" prefWidth="210.0">
+         <content>
+            <VBox fx:id="Console" prefHeight="0.0" prefWidth="0.0" />
+         </content>
+      </ScrollPane>
+   </children>
+</Pane>

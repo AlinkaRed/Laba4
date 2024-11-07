@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane prefHeight="75.0" prefWidth="230.0" style="-fx-border-color: gray;" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.processoremulatorfx.Controllers.ProcessorEmulatorViewController">
+   <children>
+      <Button layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#start" prefHeight="25.0" prefWidth="210.0" text="Запустить" />
+      <Button layoutX="10.0" layoutY="42.0" mnemonicParsing="false" onAction="#debug" prefHeight="25.0" prefWidth="95.0" text="Отладка" />
+      <Button layoutX="125.0" layoutY="42.0" mnemonicParsing="false" onAction="#reset" prefHeight="25.0" prefWidth="95.0" text="Сбросить" />
+   </children>
+</Pane>
